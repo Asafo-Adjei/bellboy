@@ -1,0 +1,16 @@
+
+.first-image{
+    border: 2px solid green; 
+    border-radius: 5px;
+     padding: 20px;
+}
+.second-image{
+    border: 2px solid green;
+     border-radius: 5px; 
+     padding: 20px;
+}
+.third-image{
+    border: 2px solid green; 
+    border-radius: 5px; 
+    padding: 20px;
+}
