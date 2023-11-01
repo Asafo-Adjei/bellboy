@@ -1,0 +1,45 @@
+<%- include('partials/header') %>
+
+<div class="row mt-5 second-row" >
+    <div class="Create-right" style="float: left;">
+        <h5 >Create a New App</h5>
+
+    </div>
+  
+
+    <form action="submit_form.php" method="post">
+        <div class="mb-3">
+            <label for="appName" class="form-label" style="float: left;">App Name:</label>
+            <input type="text" id="appName" name="appName" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label" style="float: left;">Description:</label>
+            <input type="text" id="description" name="description" class="form-control">
+        </div>
+        <div style="float: left;"> 
+             <h4>select products</h4></div>
+             <br><br>
+          
+        <div class="btn-group mb-3  gap-between" role="group" aria-label="Communication Links "  style="gap: 20px;" >
+            <div class="first-image">
+            <a href="whatsapp_link_here" class="image-link box"  ><img src="/images/Vector.svg" alt="WhatsApp" class="img-fluid"  ></a>
+            </div>
+            <div class="second-image" >
+            <a href="email_link_here" class="image-link box"><img src="/images/envelope.svg" alt="Email" class="img-fluid" ></a>
+            </div>
+            <div class="third-image">
+            <a href="sms_link_here" class="image-link box"><img src="/images/logo.svg" alt="SMS" class="img-fluid"></a>
+            </div>
+        </div>
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary float-right" style="float: left;">Submit</button>
+        </div>
+        
+    </form>
+
+</div>
+
+</div> 
+
+<%- include('partials/footer') %>
