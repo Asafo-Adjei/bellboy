@@ -1,33 +1,101 @@
 <%- include('partials/header') %>
+<link rel="stylesheet" href="css/test.css">
 
-<div class="container">
-    <p>Approved Apps</p>
-    <i class='bx bx-dots-vertical-rounded' ></i>
 
-    <p><b>eInvoice</b></p>
-    <i class='bx bxl-whatsapp'></i>
-    <i class='bx bx-envelope'></i>
-    <img src="myimages/chat.png" alt="">
 
-    <div class="btm">
-        <p>Manage</p>
-        <i class='bx bx-right-arrow-alt'></i>
+<div class="top-section">
+    <div class="approved">
+        <p><b>Approved Apps</b></p>
+        <i class='bx bx-dots-vertical-rounded' ></i>
+    </div>
+        
+
+    <div class="invoice">
+        <p><b>eInvoice</b></p>
+        
+        <div class="invoice-icons">
+            <i class='bx bxl-whatsapp'></i>
+            <i class='bx bx-envelope'></i>
+            <i class='bx bx-chat'></i>
+            <button><b>Manage</b> <i class='bx bx-right-arrow-alt'></i> </button>
+        </div>
     </div>
 
-</div>
+    <hr>
+    <div class="invoice">
+        
+        <p><b>Asset Management</b></p>
+        
+        <div class="invoice-icons">
+            <i class='bx bxl-whatsapp colgreen'></i>
+            <i class='bx bx-envelope colblue'></i>
+            <i class='bx bx-chat colorange'></i>
+            <button><b>Manage</b> <i class='bx bx-right-arrow-alt'></i> </button>
+        
+        </div>
+    </div>
+    
+</div> 
 
-<div class="bottom">
-    <p>Revoked Approval</p>
-    <i class='bx bx-dots-vertical-rounded' ></i>
+<div class="middle-section">
+    <div class="approved">
+        <p><b>Pending Approval</b></p>
+        <i class='bx bx-dots-vertical-rounded' ></i>
+    </div>
+        
 
-    <p><b>Appraisal Management</b></p>
-    <i class='bx bxl-whatsapp'></i>
-    <i class='bx bx-envelope'></i>
-    <img src="myimages/chat.png" alt="">
+    <div class="invoice">
+        <p><b>Appraisal Management</b></p>
+        
+        <div class="invoice-icons">
+            <i class='bx bxl-whatsapp'></i>
+            <i class='bx bx-envelope'></i>
+            <i class='bx bx-chat'></i>
+        
+        </div>
+    </div>
 
-    <div class="innerdiv">Restore</div>
+    <hr>
+    <div class="invoice">
+        <p><b>Results Management</b></p>
+        
+        <div class="invoice-icons">
+            <i class='bx bxl-whatsapp  colgreen '></i>
+            <i class='bx bx-envelope colblue'></i>
+            <i class='bx bx-chat colorange'></i>
+        </div>
+    </div>
+    
+</div> 
+
+<div class="bottom-section">
+    <div class="approved">
+        <p><b>Revoked Approval</b></p>
+        <i class='bx bx-dots-vertical-rounded' ></i>
+    </div>
+        
+
+    <div class="invoice">
+        <p><b>Appraisal Management</b></p>
+        
+        <div class="invoice-icons">
+            <i class='bx bxl-whatsapp'></i>
+            <i class='bx bx-envelope'></i>
+            <i class='bx bx-chat'></i>
+            <button class="restore"><b>Restore</b> </button>
+        
+        </div>
+    </div>
 
 
- </div>
+    
+    </div>
+    
+</div> 
+
+
+
+
+
 
 <%- include('partials/footer') %>
