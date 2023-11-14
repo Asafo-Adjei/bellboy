@@ -10,7 +10,7 @@ router.get("/add", function (req, res) {
 });
 // routers.use(require.static(path.join(__dirname,'public')));
 router.get("/sub", function (req, res) {
-  res.render("Add-app-page" , {title:'Add-app-page'});
+  res.render("content-page");
 });
 
 
