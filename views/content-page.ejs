@@ -1,0 +1,63 @@
+<%- include('partials/header') %>
+
+
+    <div class="container">
+        <div class="row mt-5 second-row">
+            <div class="Create-right" style="float: left;margin-top: 140px;">
+                <h5>Create a new App</h5>
+            </div>
+    
+            <form action="submit_form.php" method="post">
+                <div class="mb-3">
+                    <label for="appName" class="form-label" style="float: left;">Appname:</label>
+                    <input type="text" id="appName" name="appName" class="form-control" placeholder="Assest Management">
+                </div>
+    
+                <div class="mb-3">
+                    <label for = "description" class="form-label" style="float: left;">Description:</label>
+                    <textarea name="description" id="description" cols="30" rows="6" placeholder="Tell us about the app" ></textarea>
+                    
+                </div>
+                <div style="float: left;">
+                    <h4>Select Products</h4>
+                </div>
+                <br><br>
+    
+                <div class="btn-group mb-3 gap-between" role="group" aria-label="Communication Links" style="gap: 30px;">
+                    <div class="first-image image-container label-first"  >
+                        <a href="whatsapp_link_here" class="image-link box">
+                            <img src="css/images/Whatsapp-icon.png" alt="WhatsApp" class="img-fluid" class="custom-image ">
+                        </a>
+
+                        <label for="">Whatsapp</label>
+                    </div>
+
+
+
+                    <div class="second-image image-container" >
+                        <a href="email_link_here" class="image-link box">
+                            <img src="css/images/EmailIcon.png" alt="Email" class="img-fluid" class="custom-image " >
+                        </a>
+
+                        <label for="">Email</label>
+                    </div>
+
+
+                    <div class="third-image image-container">
+                        <a href="sms_link_here" class="image-link box">
+                            <img src="css/images/SMS2.png" alt="SMS" class="img-fluid" class="custom-image ">
+                        </a>
+
+                        <label for="">SMS</label>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary float-right" style="float: left;">Submit</button>
+                </div>
+    
+            </form>
+    
+        </div>
+    </div>
+    <%- include('partials/footer') %>
