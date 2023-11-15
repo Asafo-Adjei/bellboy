@@ -10,21 +10,25 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
+    <div class="d-flex p-2">
         <div class="side-content">
             <div class="image-section">
                 <img src="" alt="">
             </div>
             <hr>
-            <div class="inner-content">
-                <i class='bx bxs-zap' id="tb"></i>
-                <p id="tb">Manage Apps</p>
+            <div class="d-flex p-2  d-flex justify-content-center text-primary d-flex justify-content-around" id="tag">       <!--d-flex align-items-center-->
+                    <i class='bx bxs-zap' id="tb1" ></i>
+                    <a href="/manage-apps" id="tb1" style="text-decoration: none; color: rgb(16, 98, 239); margin-right: 20px;" >Manage Apps</a>
+                
             </div>
-            <div class="inner-content">
-                <i class='bx bx-tag-alt bx-rotate-270' id="tag"></i>
-                <p id="tag">My Profile</p>
+            <div class="d-flex p-2 d-flex align-items-center d-flex justify-content-center d-flex justify-content-around" id="tag">
+                    <i class='bx bx-bookmark' id="tb2" style=" color: red; margin-right: 13px;"></i>                  
+                    <a href="/my-profile" id="tb2" id="tb" style=" color: red; margin-right: 50px; text-decoration: none;"><div class="flex">My Profile</div></a> 
             </div>
         </div>
+
         <div class="main-content">
+
