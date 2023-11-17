@@ -13,5 +13,9 @@ router.get("/sub", function (req, res) {
   res.render("content-page");
 });
 
+router.get("/manage-apps", function (req, res) {
+  res.render("manage-apps");
+});
+
 
 module.exports = router;
